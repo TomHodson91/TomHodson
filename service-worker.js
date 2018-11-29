@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/TomHodson91.github.io/precache-manifest.66badf69f683c593c5ff1c4fec3b3a92.js"
+  "/TomHodson/precache-manifest.58f1878ddf1c4ce3da6ddf10c158e7a9.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/TomHodson91.github.io/index.html", {
+workbox.routing.registerNavigationRoute("/TomHodson/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
