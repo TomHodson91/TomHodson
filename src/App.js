@@ -6,8 +6,22 @@ class App extends Component {
     return (
       <div className="App">
       <div className="bg">
+        <div className='banner'>
+          <div className='links'>
+            Home
+          </div>
+          <div className='links'>
+            About Me
+          </div>
+          <div className='links'>
+            Projects
+          </div>
+          <div className='links'>
+            Contact Me
+          </div>
+        </div>
         <div className='title'>
-          Hello World!
+          Hi, I'm Tom. I'm 21 years old and this is my first ever website!
         </div>
       </div>
       </div>

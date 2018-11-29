@@ -14,9 +14,33 @@
   opacity: 0.4;
 }
 
+.banner{
+  width: 50%;
+  align-content: right;
+  display: flex;
+  position: relative;
+  left: 100vh;
+}
+
+.links {
+  color: black;
+  flex: 1;
+  padding: 15px;
+  border: 15px;
+  margin: 15px;
+  font-family: monaco;
+  text-align: center;
+}
+
+.links:hover {
+  color: white;
+  background-color: black;
+}
+
 .title {
   text-align: center;
   padding: 20px;
   color: black;
-  font-size: 30vh;
+  font-size: 5vh;
+  font-family: monaco;
 }
