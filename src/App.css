@@ -3,15 +3,16 @@
   height: 100vh;
   display: flex;
   flex-direction: column;
-}
-
-.bg{
   background-image: url(./Images/doiSuthepSummit.jpg);
-  height: 100%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 0.4;
+  opacity: 0.7;
+}
+
+.bg{
+  height: 100%;
+  
 }
 
 .banner{
