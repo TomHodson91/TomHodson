@@ -12,7 +12,6 @@
 
 .bg{
   height: 100%;
-  
 }
 
 .banner{
@@ -20,7 +19,7 @@
   align-content: right;
   display: flex;
   position: relative;
-  left: 100vh;
+  left: 0;
 }
 
 .links {
@@ -44,4 +43,11 @@
   color: black;
   font-size: 5vh;
   font-family: monaco;
+}
+
+.icon {
+  opacity: 0.7;
+}
+.icon:hover {
+  opacity: 1;
 }

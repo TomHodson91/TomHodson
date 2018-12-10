@@ -1,10 +1,34 @@
 import React from 'react';
 import { Link } from "react-router-dom";
+import github from './Images/GitHub-Mark/PNG/GitHub-Mark-120px-plus.png'
+import linkedIn from './Images/iconmonstr-linkedin-3-240.png'
+import email from './Images/iconmonstr-email-1-240.png'
+import phone from './Images/iconmonstr-phone-8.svg'
 
 export default function Home() {
     return (
         <div className="bg">
             <div className='banner'>
+            <Link to= {"/contact"}>
+                    <div className='icon'>
+                    <img src={github} alt="" />
+                    </div>
+            </Link>
+            <Link to= {"/contact"}>
+                    <div className='icon'>
+                    <img src={linkedIn} alt="" />
+                    </div>
+            </Link>
+            <Link to= {"/contact"}>
+                    <div className='icon'>
+                    <img src={email} alt="" />
+                    </div>
+            </Link>
+            <Link to= {"/contact"}>
+                    <div className='icon'>
+                    <img src={phone} alt="" />
+                    </div>
+            </Link>
                 <Link to= {"/"}>
                     <div className='links'>
                         Home
@@ -27,7 +51,7 @@ export default function Home() {
                 </Link>
             </div>
             <div className='title'>
-                Hi, I'm Tom. I'm 21 years old and this is my first ever website!
+                Hi, I'm Tom - Junior JavaScript/React developer!
             </div>
         </div>
     );
