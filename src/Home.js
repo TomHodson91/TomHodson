@@ -51,7 +51,7 @@ export default function Home() {
                 </Link>
             </div>
             <div className='title'>
-                Hi, I'm Tom - Junior JavaScript/React developer!
+                Hi, I'm Tom - Junior JavaScript/Reactjs developer!
             </div>
         </div>
     );
