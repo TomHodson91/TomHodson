@@ -15,7 +15,7 @@
 }
 
 .banner{
-  width: 50%;
+  width: 100%;
   align-content: right;
   display: flex;
   position: relative;
@@ -47,7 +47,21 @@
 
 .icon {
   opacity: 0.7;
+  flex: 1;
+  padding: 15px;
+  border: 15px;
+  margin: 15px;
 }
 .icon:hover {
   opacity: 1;
+}
+
+.banner1 {
+  display: flex;
+  width: 50%;
+}
+
+.banner2 {
+  display: flex;
+  width: 50%;
 }
