@@ -3,23 +3,43 @@
   height: 100vh;
   display: flex;
   flex-direction: column;
-  background-image: url(./Images/doiSuthepSummit.jpg);
+  font-family: 'Lato', sans-serif;
+  font-weight: bold;
+}
+
+.background {
+  height: 100vh;
+  background-image: url(./Images/doi1.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  opacity: 0.7;
+  filter: brightness(0.25) grayscale(1);
 }
 
-.bg{
-  height: 100%;
+.container {
+  position: absolute;
+  top: 0;
+  height: 100vh;
+  width: 100vw;
 }
 
-.banner{
+.banner {
   width: 100%;
   align-content: right;
   display: flex;
-  position: relative;
   left: 0;
+  filter: brightness(1) grayscale(0);
+  position: relative;
+}
+
+.title {
+  text-align: center;
+  padding: 20px;
+  color: white;
+  font-size: 7vh;
+  filter: brightness(1) grayscale(0);
+  position: relative;
+  text-align: center;
 }
 
 .links {
@@ -28,21 +48,13 @@
   padding: 15px;
   border: 15px;
   margin: 15px;
-  font-family: monaco;
   text-align: center;
+  font-size: 2vh;
 }
 
 .links:hover {
   color: white;
   background-color: black;
-}
-
-.title {
-  text-align: center;
-  padding: 20px;
-  color: black;
-  font-size: 5vh;
-  font-family: monaco;
 }
 
 .icon {

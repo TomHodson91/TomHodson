@@ -7,7 +7,9 @@ import phone from './Images/iconmonstr-phone-8.svg'
 
 export default function Home() {
     return (
-        <div className="bg">
+        <div>
+        <div className="background"></div>
+        <div className='container'>
             <div className='banner'>
                 <div className='banner1'>
                     <a href='https://github.com/TomHodson91'>
@@ -25,11 +27,11 @@ export default function Home() {
                             <img src={email} alt="" />
                             </div>
                     </a>
-                    <Link to= {"/contact"}>
+                    <a href='tel:07816390638'>
                             <div className='icon'>
                             <img src={phone} alt="" />
                             </div>
-                    </Link>
+                    </a>
                 </div>
                 <div className='banner2'>
                     <Link to= {"/"}>
@@ -55,8 +57,9 @@ export default function Home() {
                 </div>
             </div>
             <div className='title'>
-                Hi, I'm Tom - Junior JavaScript/Reactjs developer!
+                Hi, I'm Tom. Junior JavaScript/Reactjs developer!
             </div>
+        </div>
         </div>
     );
   }
